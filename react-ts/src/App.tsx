@@ -1,13 +1,11 @@
 import * as React from 'react';
-import './App.css';
+import Table from './Table';
 
 class App extends React.Component {
   public render() {
     return (
       <div>
-        <table>
-          <h1>hello</h1>
-        </table>
+        <Table/>
       </div>
     );
   }

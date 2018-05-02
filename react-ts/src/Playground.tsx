@@ -13,13 +13,8 @@ export default class Playground extends React.Component<{}, {ID: string, Name: s
   constructor(props: any) {
     super(props);
 
-    this.state = {
-      ID: '',
-      Name: '',
-      Status: ''
-    };
   }
-  
+
   public render() {
     return(
       <div>
@@ -59,7 +54,7 @@ export default class Playground extends React.Component<{}, {ID: string, Name: s
             </TableRow>
           </TableBody>
         </Table>
-    </div>
+      </div>
     )
   }
 }

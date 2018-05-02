@@ -1,11 +1,11 @@
 import * as React from 'react';
-import Playground from './Playground';
+import Table from './Table';
 
 class App extends React.Component {
   public render() {
     return (
       <div>
-        <Playground/>
+        <Table/>
       </div>
     );
   }

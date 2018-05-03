@@ -9,3 +9,13 @@ table {
   margin-top: .5rem;
   border-collapse: collapse;
 }
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+form {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
